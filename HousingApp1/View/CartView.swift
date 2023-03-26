@@ -9,7 +9,14 @@ import SwiftUI
 
 struct CartView: View {
     var body: some View {
-        Text("장바구니 화면")
+        VStack{
+            NavigationLink(destination: SplashView()){
+                Image(systemName: "person")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+        }
+        
+        }
     }
 }
 

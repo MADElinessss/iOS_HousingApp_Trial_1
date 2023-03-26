@@ -56,7 +56,7 @@ struct ContentView: View {
                             }
                         }
                     }
-                    .navigationTitle("Today's House")
+                    .navigationTitle("오늘의 팀🏡")
                 }
                 .ignoresSafeArea(edges: .bottom)
             }
